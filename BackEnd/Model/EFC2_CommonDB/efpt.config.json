@@ -1,0 +1,17 @@
+﻿{
+  "ContextClassName": "CGCGeneraldbContext",
+  "DefaultDacpacSchema": null,
+  "IdReplace": false,
+  "IncludeConnectionString": true,
+  "OutputPath": "",
+  "ProjectRootNamespace": "EFC2_CommonDB",
+  "SelectedToBeGenerated": 0,
+  "Tables": [ "Bitacora.RegMovimientos", "Bitacora.RegSesion", "Bitacora.RegSesionError", "Documento.Documentos", "Parametros.Cantones", "Parametros.Paises", "Parametros.Provincias", "Parametros.TipoInfoPersonas", "Parametros.TipoUsuario", "Persona.Personas", "Seguridad.Modulos", "Seguridad.Permisos", "Seguridad.PermisosModulos", "Seguridad.Roles", "Seguridad.Usuarios", "Seguridad.UsuariosRoles" ],
+  "UseDatabaseNames": true,
+  "UseFluentApiOnly": false,
+  "UseHandleBars": false,
+  "UseInflector": false,
+  "ConnectionStrings": {
+    "CGCGeneralDB": "Data Source=tcp:cgccommon.database.windows.net,1433;Initial Catalog=CGCGeneralDB;Persist Security Info=True;User ID=CGCOwner;Password=Abcd1234.."
+  }
+}

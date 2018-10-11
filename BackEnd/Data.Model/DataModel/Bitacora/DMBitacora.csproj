@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>DataModel.DMBitacora</AssemblyName>
+    <RootNamespace>DataModel.DMBitacora</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Entities\GeneralProperties\GeneralProperties.csproj" />
+    <ProjectReference Include="..\..\..\Model\EFC2_CommonDB\EFC2_CommonDB.csproj" />
+  </ItemGroup>
+
+</Project>
